@@ -1,12 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Radius from "./components/RadiusCalculator";
-import Charts from "./components/Charts";
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Radius />
-    <Charts />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
